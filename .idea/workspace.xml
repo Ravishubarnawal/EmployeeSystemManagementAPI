@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Employee Management:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3fc88699-0c5d-4dc2-a1ae-10ff1fe23336" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Employee_Management_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Employee_Management_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeManagement/controller/EmployeeApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeManagement/controller/EmployeeResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeManagement/controller/LoginResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeManagement/converter/EmployeeDomainConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeManagement/converter/EmployeeEntityConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeManagement/dao/EmployeeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeManagement/dao/EmployeeDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeManagement/domain/EmployeeDomain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeManagement/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeManagement/entity/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeManagement/exception/ApplicationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeManagement/exception/ApplicationExceptionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeManagement/exception/EmployeeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeManagement/exception/ExceptionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeManagement/exception/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeManagement/exception/MyExceptionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeManagement/helper/ErrorMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeManagement/helper/ValidatorUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeManagement/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeManagement/service/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeManagement/test/EmployeeServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeManagement/test/PhoneNumberValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeManagement/utils/PhoneNumberValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2M2KYuumCbUPTMdFrlARJhWXfTj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ravishu/IdeaProjects/spring-boot-fullstack-professional-12-github-actions&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.employeeManagement.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Bazigaaa\IdeaProjects\Employee Management\src\main\resources\META-INF" />
+      <recent name="C:\Users\Bazigaaa\IdeaProjects\Employee Management\src\main\java\com\example\employeemanagement\helper" />
+      <recent name="C:\Users\Bazigaaa\IdeaProjects\Employee Management\src\main\java\com\example\employeemanagement" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Bazigaaa\IdeaProjects\Employee Management\src\main\resources\META-INF" />
+      <recent name="C:\Users\Bazigaaa\IdeaProjects\Employee Management\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.employeeManagement.exception" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.EmployeeServiceTest.itShouldSaveNewEmployee">
+    <configuration name="JBoss/WildFly 26.1.3.Final2" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss/WildFly 26.1.3.Final" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="$PROJECT_DIR$/../../../../Program Files/Java/jdk-19">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/EmployeeManagement-1.0-SNAPSHOT" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Employee Management:war exploded">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" />
+        <option name="USERNAME" value="ravishubarnawal" />
+        <option name="CREDENTIAL_ALIAS" value="33fea24e-0707-4e3c-9d22-a7d64de82d9d" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="JBoss" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54363" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Employee Management:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="EmployeeServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Employee Management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.employeeManagement.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.employeeManagement.test" />
+      <option name="MAIN_CLASS_NAME" value="com.example.employeeManagement.test.EmployeeServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeServiceTest.itShouldSaveNewEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Employee Management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.employeeManagement.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.employeeManagement.test" />
+      <option name="MAIN_CLASS_NAME" value="com.example.employeeManagement.test.EmployeeServiceTest" />
+      <option name="METHOD_NAME" value="itShouldSaveNewEmployee" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneNumberValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Employee Management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.employeeManagement.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.employeeManagement.test" />
+      <option name="MAIN_CLASS_NAME" value="com.example.employeeManagement.test.PhoneNumberValidatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneNumberValidatorTest.itShouldValidatePhoneNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Employee Management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.employeeManagement.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.employeeManagement.test" />
+      <option name="MAIN_CLASS_NAME" value="com.example.employeeManagement.test.PhoneNumberValidatorTest" />
+      <option name="METHOD_NAME" value="itShouldValidatePhoneNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneNumberValidatorTest.itShouldValidatePhoneNumberWhenDoesNotStartWithPlusSign" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Employee Management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.employeeManagement.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.employeeManagement.test" />
+      <option name="MAIN_CLASS_NAME" value="com.example.employeeManagement.test.PhoneNumberValidatorTest" />
+      <option name="METHOD_NAME" value="itShouldValidatePhoneNumberWhenDoesNotStartWithPlusSign" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JBoss/WildFly Server.JBoss/WildFly 26.1.3.Final2" />
+      <item itemvalue="JUnit.EmployeeServiceTest" />
+      <item itemvalue="JUnit.EmployeeServiceTest.itShouldSaveNewEmployee" />
+      <item itemvalue="JUnit.PhoneNumberValidatorTest" />
+      <item itemvalue="JUnit.PhoneNumberValidatorTest.itShouldValidatePhoneNumber" />
+      <item itemvalue="JUnit.PhoneNumberValidatorTest.itShouldValidatePhoneNumberWhenDoesNotStartWithPlusSign" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EmployeeServiceTest.itShouldSaveNewEmployee" />
+        <item itemvalue="JUnit.PhoneNumberValidatorTest" />
+        <item itemvalue="JUnit.EmployeeServiceTest" />
+        <item itemvalue="JUnit.PhoneNumberValidatorTest.itShouldValidatePhoneNumberWhenDoesNotStartWithPlusSign" />
+        <item itemvalue="JUnit.PhoneNumberValidatorTest.itShouldValidatePhoneNumber" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3fc88699-0c5d-4dc2-a1ae-10ff1fe23336" name="Changes" comment="" />
+      <created>1676960291694</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676960291694</updated>
+      <workItem from="1676960293544" duration="12549000" />
+      <workItem from="1676979544001" duration="2551000" />
+      <workItem from="1677315829292" duration="2238000" />
+      <workItem from="1677377943407" duration="6355000" />
+      <workItem from="1677389718141" duration="19896000" />
+      <workItem from="1677465115176" duration="5017000" />
+      <workItem from="1677470332672" duration="2436000" />
+      <workItem from="1677476577561" duration="1732000" />
+      <workItem from="1677478403193" duration="14686000" />
+      <workItem from="1677557814629" duration="3164000" />
+      <workItem from="1677644871678" duration="1968000" />
+      <workItem from="1677995741305" duration="20000" />
+      <workItem from="1678686162798" duration="10955000" />
+      <workItem from="1678767378431" duration="7733000" />
+      <workItem from="1678795413054" duration="562000" />
+      <workItem from="1678858060086" duration="173000" />
+      <workItem from="1678859346381" duration="2345000" />
+      <workItem from="1678871236279" duration="7567000" />
+      <workItem from="1680415653275" duration="18040000" />
+      <workItem from="1680535888438" duration="1207000" />
+      <workItem from="1680580203582" duration="9273000" />
+      <workItem from="1680591440125" duration="2732000" />
+      <workItem from="1680667890621" duration="2475000" />
+      <workItem from="1680694122104" duration="615000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

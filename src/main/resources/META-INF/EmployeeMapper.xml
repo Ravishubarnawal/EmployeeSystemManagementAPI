@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Employee">
+    <resultMap id="result" type="com.example.employeeManagement.entity.Employee">
+        <result property="id" column="emp_id"/>
+        <result property="empName" column="emp_name"/>
+        <result property="empEmail" column="emp_email"/>
+        <result property="empPhone" column="emp_phone"/>
+        <result property="empSalary" column="emp_salary"/>
+        <result property="joinDate" column="join_date"/>
+        <result property="leaveDate" column="leave_date"/>
+    </resultMap>
+    <insert id="insertEmployee">
+        INSERT INTO employee (emp_name, emp_email, emp_phone, emp_salary,join_date,leave_date)
+        VALUES (#{empName}, #{empEmail}, #{empPhone}, #{empSalary}, #{joinDate,typeHandler=org.apache.ibatis.type.LocalDateTypeHandler}, #{leaveDate,typeHandler=org.apache.ibatis.type.LocalDateTypeHandler} );
+        <selectKey keyProperty="id" resultType="int" order="AFTER">
+            select last_insert_id() as id
+        </selectKey>
+    </insert>
+    <select id="getAllEmployee" resultMap="result">
+        SELECT *
+        FROM employee;
+    </select>
+    <select id="getEmployeeById" parameterType="int" resultMap="result">
+        SELECT * FROM employee WHERE emp_id=#{id};
+    </select>
+    <update id="updateEmployee">
+        UPDATE employee SET emp_name = #{empName},
+                            emp_phone = #{empPhone},
+                            emp_salary= #{empSalary},
+                            join_date = #{joinDate,typeHandler=org.apache.ibatis.type.LocalDateTypeHandler},
+                            leave_date= #{leaveDate,typeHandler=org.apache.ibatis.type.LocalDateTypeHandler}
+        WHERE emp_id= #{id};
+    </update>
+    <delete id="deleteEmployeeById">
+        DELETE
+        from employee
+        WHERE emp_id = #{id};
+    </delete>
+
+</mapper>
